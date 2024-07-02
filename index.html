@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <script src="https://kit.fontawesome.com/843c8d7c57.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+    <h1>Lista de Tareas</h1>
+    <div class="cajaInput">
+        <input  id="tarea" type="text" placeholder="¿Que vamos a hacer?">
+        <button id="boton">To Do!</button>
+    </div>
+
+    <div class="contadores">
+        <p>Tareas en lista: <strong> <span id="conteoTotal">0</span> </strong> </p>
+        <p>Tareas en realizadas: <strong> <span id="conteoHechas">0</span> </strong> </p>
+    </div>
+
+    <div class="lista">
+        <table>
+            <thead>
+                <tr>
+                    <th>Tarea</th>
+                    <th>Hecha</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody id="listaTareas">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="/src/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    background-color: #424242;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #A8ADBB;
+    text-align: center;
+}
+.cajaInput, .contadores {
+    display: flex;
+    background-color: #A8ADBB;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#tarea {
+    width: 80%;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #A8ADBB;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#boton {
+    width: 20%;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #A8ADBB;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #424242;
+    margin-left: 25px;
+}
+
+.contadores {
+   justify-content: space-around;
+}
+
+table {
+    width: 95%;
+    margin: 2rem auto;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    text-align: center;
+}
+
+td, th {
+    display: table-cell;
+    padding: 10px;
+    background-color: #A8ADBB;
+    border-radius: 10px;
+    margin: 2rem;
+
+}
+
+.pequeño {
+    width: 20%px;
+}
+
+.grande {
+    width: 80%;
+}
+
+.trash {
+    background-color: #A8ADBB;
+    border: none;
+    color:  #424242;
+}
